@@ -1,11 +1,11 @@
 
 from flask import Flask, request, jsonify
 import openai
-# from flask_cors import CORS  # Import CORS
+from flask_cors import CORS  # Import CORS
 import os
 
 app = Flask(__name__)
-# CORS(app)
+CORS(app)
 # Set up OpenAI API
 openai.api_key = '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'
 model_id = 'gpt-3.5-turbo'
