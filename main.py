@@ -58,4 +58,4 @@ def generate_emails():
     return jsonify({"email_templates": email_templates})
     
 if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv("PORT", default=5000))
+    app.run(debug=True, port=os.getenv("PORT", default=7097))
