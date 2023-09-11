@@ -1,7 +1,7 @@
 
 from flask import Flask, request, jsonify
 import openai
-from flask_cors import CORS  # Import CORS
+from Flask_Cors import CORS  # Import CORS
 import os
 
 app = Flask(__name__)
